@@ -26,12 +26,25 @@ body {
   position: relative;
 }
 
+#altbox {
+  float: left;
+  height: 1em;
+  width: 1em;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-left: .8em;
+  position: absolute;
+}
+
 input[type="checkbox"] {
+  display: none;
   width: auto;
   height: auto;
   float: left;
-  position: relative;
-  left: 1.2%;
+  margin-right: 2em;
+  position: absolute;
+  left: 1%;
 }
 
 input[type="checkbox"] + label {
