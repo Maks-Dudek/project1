@@ -22,11 +22,19 @@ body {
   position: relative;
 }
 
+#agecheckcontainer {
+  position: relative;
+}
+
+#agecheckcontainer input label {
+  
+}
+
 
 #button {
   position: relative; 	
   left: 2.3%;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 h1 {
