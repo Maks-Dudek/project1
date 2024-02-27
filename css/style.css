@@ -26,10 +26,23 @@ body {
   position: relative;
 }
 
-#agecheckcontainer input label {
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  float: left;
+  position: relative;
+  left: 1.2%;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
   
 }
 
+#age-verification + label{
+  display: block;
+  padding-left: 20px;
+}
 
 #button {
   position: relative; 	
