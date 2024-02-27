@@ -4,6 +4,7 @@ body {
 }
 
 #formcontainer {
+  background: rgba(0, 0, 0, .2);
   border: .2em solid black;	
   border-radius: 30px;
   position: relative;
