@@ -10,14 +10,23 @@ body {
   position: relative;
 }
 
+#namecontainer {
+  position: relative;
+}
+
+#phonecontainer {
+  position: relative;	
+}
+
 #emailcontainer {
   position: relative;
 }
 
+
 #button {
   position: relative; 	
   left: 2.3%;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 h1 {

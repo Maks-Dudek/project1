@@ -16,8 +16,17 @@
   <form method ="POST" autocomplete="on" action="#null">
     <fieldset id="formcontainer">
       <legend>Sign up</legend>
-      <div id ="emailcontainer">
-        <label>Email Address: <input required name="email" type="email" placeholder="jsmith@gmail.com"></label>
+      <div id="namecontainer">
+	    <label>Full Name<input required name="text" type="text" placeholder= "John Smith"></label>
+	  </div>
+	  <div id="phonecontainer">
+	    <label>Phone Number: <input required name="phone" type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12"></label>
+		</label>
+      </div>
+	  <div id="emailcontainer">
+        <label>Email Address: <input required name="email" type="email" placeholder="jsmith@gmail.com">
+		</label>
+      </div>
       <div id="button">
         <button type="submit">Sign up</button>
       </div>
