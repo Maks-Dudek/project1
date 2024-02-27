@@ -40,8 +40,15 @@ input[type="checkbox"] + label {
 }
 
 #age-verification + label{
+  vertical-align: top;
+  position: relative;
   display: block;
-  padding-left: 20px;
+  border-radius: 0;
+  padding-left: 2em;
+  padding-bottom: 1.4em;
+  padding-top: .3em;
+  text-align: left;
+  border-width: 0
 }
 
 #button {
