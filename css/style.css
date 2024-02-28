@@ -22,48 +22,6 @@ body {
   position: relative;
 }
 
-#agecheckcontainer {
-  position: relative;
-}
-
-#altbox {
-  float: left;
-  height: 1em;
-  width: 1em;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 4px;
-  margin-left: .8em;
-  position: absolute;
-}
-
-input[type="checkbox"] {
-  display: block;
-  width: auto;
-  height: auto;
-  float: left;
-  margin-right: 2em;
-  position: absolute;
-  left: 1%;
-}
-
-input[type="checkbox"] + label {
-  display: inline;
-  
-}
-
-#age-verification + label{
-  vertical-align: top;
-  position: relative;
-  display: block;
-  border-radius: 0;
-  padding-left: 2em;
-  padding-bottom: 1.4em;
-  padding-top: .3em;
-  text-align: left;
-  border-width: 0
-}
-
 #button {
   position: relative; 	
   left: 2.3%;
@@ -198,8 +156,45 @@ fieldset {
   }
 }
 
+#age-verification + label{
+  vertical-align: top;
+  position: relative;
+  display: block;
+  border-radius: 0;
+  padding-left: 2em;
+  padding-bottom: 1.4em;
+  padding-top: .3em;
+  text-align: left;
+  border-width: 0
+}
 
-.hasjs #age-verification {
+#agecheckcontainer {
+  position: relative;
+}
+
+#altbox {
+  float: left;
+  height: 1em;
+  width: 1em;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-left: .8em;
   position: absolute;
-  right: 9999px;  
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: auto;
+  height: auto;
+  float: left;
+  margin-right: 2em;
+  left: 10%;
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+  position: relative;
 }
