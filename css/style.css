@@ -125,7 +125,7 @@ fieldset {
 #age-verification {
   vertical-align: top;
   position: absolute;
-  display: block;
+  display: none;
   border-radius: 0;
   padding-left: 2em;
   padding-bottom: 1.4em;
@@ -164,7 +164,6 @@ fieldset {
   clear: both;
   z-index: 99;
   overflow-wrap: break-word;
- 
 }
 
 input[type="checkbox"] {
@@ -173,8 +172,7 @@ input[type="checkbox"] {
   height: auto;
   float: left;
   display: block;
-  clear: both;
-  
+  clear: both;  
 }
 
 input[type="checkbox"] + label {
