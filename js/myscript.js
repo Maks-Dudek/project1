@@ -32,7 +32,7 @@ function changeEmailLabelColor() {
 }
 
 function submitForm() {
-  document.getElementById("subscribe").submit();
+  document.getElementById("subscribe");
   alert("Thank You for signing up!");
 }
 
