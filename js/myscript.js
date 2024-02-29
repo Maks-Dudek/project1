@@ -37,3 +37,5 @@ alert("js is working");
 
 
 changeNameLabelColor();
+changePhoneLabelColor();
+changeEmailLabelColor();
