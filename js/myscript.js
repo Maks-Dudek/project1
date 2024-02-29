@@ -31,6 +31,11 @@ function changeEmailLabelColor() {
   }
 }
 
+function submitForm() {
+  document.getElementById("subscribe").submit();
+  alert("Thank You for signing up!");
+}
+
 changeNameLabelColor();
 changePhoneLabelColor();
 changeEmailLabelColor();
