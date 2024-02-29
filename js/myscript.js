@@ -1,12 +1,13 @@
 jQuery(function ($) {
     $('html').removeClass('nojs');
     $("html").addClass("hasjs");
-    $("#age-verification").on("click", function () {
+    $("#altbox").on("click", function () {
         $("#age-verification").prop("checked", true);
-        $("#altbox").html("<p>&#10004;</p>");
+        $("#altbox").css("background-color", "orange");
 		alert("click");
     });
 });
+
 
 jQuery(document).ready(function($) {
 alert("js is working");
