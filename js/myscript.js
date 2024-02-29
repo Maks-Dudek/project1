@@ -31,11 +31,6 @@ function changeEmailLabelColor() {
   }
 }
 
-jQuery(document).ready(function($) {
-alert("js is working");
-});
-
-
 changeNameLabelColor();
 changePhoneLabelColor();
 changeEmailLabelColor();
