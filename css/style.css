@@ -95,7 +95,7 @@ button{
 
 button:hover {
   cursor: pointer;
-  background-color: orange;
+  background-color: #26b170;
 }
 
 legend { 

@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="js/myscript.js"></script>
+  <script src="js/myscript.js" async></script>
 </head>
 <body>
   <h1>John's Grocery Store</h1>
@@ -19,14 +19,14 @@
     <fieldset id="formcontainer">
       <legend>Sign up</legend>
       <div id="namecontainer">
-        <label>Full Name<input required name="text" type="text" for="name" placeholder= "John Smith"></label>
+        <label>Full Name<input id="namel" required name="text" type="text" for="name" placeholder= "John Smith" onchange="changeNameLabelColor();" ></label>
       </div>
       <div id="phonecontainer">
-        <label>Phone Number: <input required name="phone" type="tel" for="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
+        <label>Phone Number: <input id="phonel" required name="phone" type="tel" for="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" onchange="changePhoneLabelColor()";>
         </label>
       </div>
       <div id="emailcontainer">
-        <label>Email Address: <input required name="email" type="email" for="email" placeholder="jsmith@gmail.com">
+        <label>Email Address: <input id="emaill" required name="email" type="email" for="email" placeholder="jsmith@gmail.com" onchange="changeEmailLabelColor()";>
         </label>
       </div>
 	  <div id="altbox"></div>
