@@ -3,7 +3,6 @@ body {
   text-align: center;
 }
 
-
 #topcontent {
   position: relative;
   width: 95%;
@@ -11,7 +10,6 @@ body {
   background: rgba(255, 255, 255, .3);
   border-radius: 25px;
 }
-
 
 #topcontent p {
   position: relative;
@@ -86,7 +84,6 @@ p {
 
 legend {
   font-family: "Libre Bodoni", serif;
-	
 }
 
 label { 
@@ -242,7 +239,6 @@ input[type="checkbox"] + label {
     right: 7%;
     top: 30%;
   }
-	
   
   #namecontainer label {
     position: relative;
